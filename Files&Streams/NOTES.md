@@ -28,9 +28,9 @@
 
 6. [Exercises](#exercises)
 
-7. [Directory Class Methods](####directory-class-methods)
-
-8. [File Class Methods](####file-class-methods)
+7. [Directory Class Methods](#directory-class-methods)
+8. 
+9. [File Class Methods](#file-class-methods)
 
 <br>
 <br>
