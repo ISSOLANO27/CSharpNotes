@@ -28,9 +28,9 @@
 
 6. [Exercises](#exercises)
 
-7. [Directory Class Methods](####file-class-methods)
+7. [Directory Class Methods](####directory-class-methods)
 
-8. [File Class Methods](####table-14-2-Selected-`Directory`-Class-Methods)
+8. [File Class Methods](####file-class-methods)
 
 <br>
 <br>
@@ -342,8 +342,10 @@ While `File` works with individual files, the `Directory` class works with **fol
 * Create or delete a folder
 * List subdirectories
 * List files within a directory
+  
+Table 14-2
 
-#### Table 14-2 Selected `Directory` Class Methods
+#### Directory Class Methods
 
 | Method               | Description                                                       |
 | -------------------- | ----------------------------------------------------------------- |
