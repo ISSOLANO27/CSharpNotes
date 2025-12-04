@@ -28,6 +28,10 @@
 
 6. [Exercises](#exercises)
 
+7. [Directory Class Methods](####table-14-1-Selected-`File`-Class-Methods)
+
+8. [File Class Methods](####table-14-2-Selected-`Directory`-Class-Methods)
+
 <br>
 <br>
 <br>
@@ -103,9 +107,30 @@ Both are just bytes — the difference is interpretation.
   
 Common Characteristics Binary/Text:
 
-Regardless of content, *both* have names, sizes, timestamps, and live on storage devices.
+Regardless of content, *both Bynary/Text* files have names, sizes, timestamps, and live on storage devices.
 
+#### 1. name
+- extension name. `.dll .exe .py .txt .html`
+#### 2. timestamp
+-  Time of creation
+#### 3. size
+A **byte** is a small unit of storage. 
+- 1 byte holds one character; 1 byte is 8 bits (00000000) <-- one byte
+- KILOBYTES are thousand of bytes
+- MEGABYTES are millions
+- GIGABYTES are billions of BYTES!
 
+### Read/Write
+
+When you use data, you never really use the copy of the file directly. Instead, you use a copy that has been loaded into memory. Especially when the data items are stored on the hard disk, the locations might not be that clear to you. It seems to *be in the computer*. 
+
+ However, when you work with store data, you must transfer copies from the storage device into memory. Copying data from a file on a storage device into RAM you **read from the file**. 
+
+ When you store data in a computer file on a persistent storage device, you **write to the file**.
+ 
+ This means you copy data from RAM to the storage device (RAM -> disk). 
+
+ > Some programmers rather say "persistent"; Since data in files may be deleted.
 
 ## **Directories (Folders) and Paths**
 
@@ -188,7 +213,7 @@ Both classes are **static**: you don’t create objects from them; you call thei
 
 The `File` class focuses on **individual files**—text or binary. It exposes methods for creating, deleting, and inspecting files.
 
-#### Table 14-1 — Selected `File` Class Methods
+#### Table 14-1 Selected `File` Class Methods
 
 | Method               | Description                                                  |
 | -------------------- | ------------------------------------------------------------ |
@@ -238,6 +263,16 @@ using System.IO;
 
 so you can also call `WriteLine()` directly.
 
+#### `using` vs `using static` in C#
+
+| Statement                        | Valid? | What It Lets You Do                                    | Example Code                          |
+|----------------------------------|--------|--------------------------------------------------------|---------------------------------------|
+| `using static System.Console;`   | ✅ Yes | Call `Console` methods directly without prefix         | `WriteLine("Hello");`                 |
+| `using System.IO;`               | ✅ Yes | Use classes in `System.IO` without full namespace path | `File.Exists("data.txt");`            |
+| `using static System.IO.File;`   | ✅ Yes | Call `File` class static members directly              | `Exists("data.txt");`                 |
+| `using static System.IO;`        | ❌ No  | Invalid — `System.IO` is a namespace, not a class      | *(won’t compile)*                     |
+
+
 ---
 
 ### Example: FileStatistics Program (Figure 14-1)
@@ -248,26 +283,26 @@ This program asks the user for a filename, checks whether it exists, and if it d
 using static System.Console;
 using System.IO;
 
-class FileStatistics
+class FileStatistics 
 {
     static void Main()
     {
-        string fileName;
+        string fileName; 
 
         Write("Enter a filename >> ");
         fileName = ReadLine();
 
-        if (File.Exists(fileName))
+        if (File.Exists(fileName)) // if filename is not found, else statement runs  -->
         {
-            WriteLine("File exists");
+            WriteLine("File exists"); // Otherwise, confirmation outputs
             WriteLine("File was created " +
-                File.GetCreationTime(fileName));
+                File.GetCreationTime(fileName)); // by concatanating a string to GetCreationTime(filename)
             WriteLine("File was last written to " +
-                File.GetLastWriteTime(fileName));
+                File.GetLastWriteTime(fileName)); // and its last update
         }
         else
         {
-            WriteLine("File does not exist");
+            WriteLine("File does not exist"); // --> we catch with else; >30% probability of error
         }
     }
 }
@@ -280,7 +315,7 @@ class FileStatistics
 * If the file is found →
   `File.Exists()` returns `true` → creation time and last write time are shown.
 
-> Note: In this example, the file is expected to be in the **same directory** as the running program. If it isn’t, you must supply a full or relative path.
+> Note: In this example, the file is expected to be in the **same directory** as the running program. If it isn’t, you must supply a full or **relative path**.
 
 ---
 
@@ -293,6 +328,8 @@ There’s also a `FileInfo` class in `System.IO` that exposes similar informatio
 
 It’s useful when you’re working with the same file repeatedly and want to keep an object with its metadata around.
 
+[Microsoft DOCX/FileInfo](http://msdn.microsoft.com)
+
 ---
 
 ### Directory Class Overview
@@ -304,7 +341,7 @@ While `File` works with individual files, the `Directory` class works with **fol
 * List subdirectories
 * List files within a directory
 
-#### Table 14-2 — Selected `Directory` Class Methods
+#### Table 14-2 Selected `Directory` Class Methods
 
 | Method               | Description                                                       |
 | -------------------- | ----------------------------------------------------------------- |
@@ -319,7 +356,12 @@ While `File` works with individual files, the `Directory` class works with **fol
 
 ---
 
-### Example: DirectoryInformation Program (Figure 14-3)
+
+```csharp
+
+/*
+
+DirectoryInformation Program (Figure 14-3)
 
 This program:
 
@@ -328,7 +370,7 @@ This program:
 3. If it exists, calls `Directory.GetFiles()` to obtain all files inside.
 4. Loops through the returned array and prints each file path.
 
-```csharp
+*/
 using static System.Console;
 using System.IO;
 
