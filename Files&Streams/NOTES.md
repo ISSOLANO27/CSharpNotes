@@ -28,7 +28,7 @@
 
 6. [Exercises](#exercises)
 
-7. [Directory Class Methods](####table-14-1-Selected-`File`-Class-Methods)
+7. [Directory Class Methods](####file-class-methods)
 
 8. [File Class Methods](####table-14-2-Selected-`Directory`-Class-Methods)
 
@@ -213,7 +213,9 @@ Both classes are **static**: you don’t create objects from them; you call thei
 
 The `File` class focuses on **individual files**—text or binary. It exposes methods for creating, deleting, and inspecting files.
 
-#### Table 14-1 Selected `File` Class Methods
+Table 14-1:
+
+#### File Class Methods
 
 | Method               | Description                                                  |
 | -------------------- | ------------------------------------------------------------ |
