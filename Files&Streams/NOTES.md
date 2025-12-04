@@ -1472,7 +1472,7 @@ Enter minimum salary to find or 999 to quit >> 999
 
 
 
-# **Understanding Serialization and Deserialization (with fully commented code)**
+# Understanding Serialization and Deserialization (with fully commented code)
 
 Writing to text files works, but it has two big issues:
 
