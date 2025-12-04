@@ -546,9 +546,9 @@ If your program keeps the company inventory file open, the order-processing syst
 
 ---
 
-## **📁 Representative Diagram (Repo-Ready)**
+## **📁 Representative Diagram**
 
-*ASCII hierarchy inspired by Figure 14-5 — upgraded for clarity and professionalism.*
+*ASCII hierarchy inspired by Figure 14-5:*
 
 ```
                             ┌─────────────────────────┐
