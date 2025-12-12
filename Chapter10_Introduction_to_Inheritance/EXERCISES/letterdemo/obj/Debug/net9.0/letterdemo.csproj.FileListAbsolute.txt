@@ -1,0 +1,14 @@
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\obj\Debug\net9.0\letterdemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\obj\Debug\net9.0\letterdemo.AssemblyInfoInputs.cache
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\obj\Debug\net9.0\letterdemo.AssemblyInfo.cs
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\obj\Debug\net9.0\letterdemo.csproj.CoreCompileInputs.cache
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\bin\Debug\net9.0\letterdemo.exe
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\bin\Debug\net9.0\letterdemo.deps.json
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\bin\Debug\net9.0\letterdemo.runtimeconfig.json
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\bin\Debug\net9.0\letterdemo.dll
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\bin\Debug\net9.0\letterdemo.pdb
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\obj\Debug\net9.0\letterdemo.dll
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\obj\Debug\net9.0\refint\letterdemo.dll
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\obj\Debug\net9.0\letterdemo.pdb
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\obj\Debug\net9.0\letterdemo.genruntimeconfig.cache
+C:\dev\CSharpIntro\Chapter10_Introduction_to_Inheritance\EXERCISES\letterdemo\obj\Debug\net9.0\ref\letterdemo.dll

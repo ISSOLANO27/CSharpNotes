@@ -1,0 +1,14 @@
+C:\dev\CSharpIntro\Chapter7ex\bin\Debug\net8.0\Chapter7ex.exe
+C:\dev\CSharpIntro\Chapter7ex\bin\Debug\net8.0\Chapter7ex.deps.json
+C:\dev\CSharpIntro\Chapter7ex\bin\Debug\net8.0\Chapter7ex.runtimeconfig.json
+C:\dev\CSharpIntro\Chapter7ex\bin\Debug\net8.0\Chapter7ex.dll
+C:\dev\CSharpIntro\Chapter7ex\bin\Debug\net8.0\Chapter7ex.pdb
+C:\dev\CSharpIntro\Chapter7ex\obj\Debug\net8.0\Chapter7ex.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\CSharpIntro\Chapter7ex\obj\Debug\net8.0\Chapter7ex.AssemblyInfoInputs.cache
+C:\dev\CSharpIntro\Chapter7ex\obj\Debug\net8.0\Chapter7ex.AssemblyInfo.cs
+C:\dev\CSharpIntro\Chapter7ex\obj\Debug\net8.0\Chapter7ex.csproj.CoreCompileInputs.cache
+C:\dev\CSharpIntro\Chapter7ex\obj\Debug\net8.0\Chapter7ex.dll
+C:\dev\CSharpIntro\Chapter7ex\obj\Debug\net8.0\refint\Chapter7ex.dll
+C:\dev\CSharpIntro\Chapter7ex\obj\Debug\net8.0\Chapter7ex.pdb
+C:\dev\CSharpIntro\Chapter7ex\obj\Debug\net8.0\Chapter7ex.genruntimeconfig.cache
+C:\dev\CSharpIntro\Chapter7ex\obj\Debug\net8.0\ref\Chapter7ex.dll

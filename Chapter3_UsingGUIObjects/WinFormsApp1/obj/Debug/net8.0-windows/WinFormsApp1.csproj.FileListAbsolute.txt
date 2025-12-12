@@ -1,0 +1,17 @@
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Properties.Resources.resources
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\dev\CSharpIntro\Chapter3_UsingGUIObjects\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll

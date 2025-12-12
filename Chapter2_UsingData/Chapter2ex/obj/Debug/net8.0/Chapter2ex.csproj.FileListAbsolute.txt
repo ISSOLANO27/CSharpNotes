@@ -1,0 +1,14 @@
+C:\dev\CSharpIntro\Chapter2ex\bin\Debug\net8.0\Chapter2ex.exe
+C:\dev\CSharpIntro\Chapter2ex\bin\Debug\net8.0\Chapter2ex.deps.json
+C:\dev\CSharpIntro\Chapter2ex\bin\Debug\net8.0\Chapter2ex.runtimeconfig.json
+C:\dev\CSharpIntro\Chapter2ex\bin\Debug\net8.0\Chapter2ex.dll
+C:\dev\CSharpIntro\Chapter2ex\bin\Debug\net8.0\Chapter2ex.pdb
+C:\dev\CSharpIntro\Chapter2ex\obj\Debug\net8.0\Chapter2ex.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\CSharpIntro\Chapter2ex\obj\Debug\net8.0\Chapter2ex.AssemblyInfoInputs.cache
+C:\dev\CSharpIntro\Chapter2ex\obj\Debug\net8.0\Chapter2ex.AssemblyInfo.cs
+C:\dev\CSharpIntro\Chapter2ex\obj\Debug\net8.0\Chapter2ex.csproj.CoreCompileInputs.cache
+C:\dev\CSharpIntro\Chapter2ex\obj\Debug\net8.0\Chapter2ex.dll
+C:\dev\CSharpIntro\Chapter2ex\obj\Debug\net8.0\refint\Chapter2ex.dll
+C:\dev\CSharpIntro\Chapter2ex\obj\Debug\net8.0\Chapter2ex.pdb
+C:\dev\CSharpIntro\Chapter2ex\obj\Debug\net8.0\Chapter2ex.genruntimeconfig.cache
+C:\dev\CSharpIntro\Chapter2ex\obj\Debug\net8.0\ref\Chapter2ex.dll
